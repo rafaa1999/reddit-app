@@ -1,10 +1,11 @@
 package com.rafaa.entity;
 
-import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import javax.persistence.*;
+import javax.validation.constraints.*;
 
 @Data
 @AllArgsConstructor
